@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textPersonName"
+        android:hint="First name"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:textSize="30sp"
+        android:layout_margin="8dp" />
+
+    <EditText
+        android:id="@+id/editmobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Mobile No"
+        android:textSize="30sp"
+        android:layout_margin="8dp" />
+
+    <EditText
+        android:id="@+id/editemailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email address"
+        android:textSize="30sp"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/editdateofbirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:textSize="30sp"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/saveid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
